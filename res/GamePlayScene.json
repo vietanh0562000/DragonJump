@@ -1,0 +1,191 @@
+{
+  "ID": "c1b627ba-63fd-437f-b55f-fc3abd31db95",
+  "Version": "3.10.0.0",
+  "Name": "GamePlayScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 6,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/HomeDisable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/HomePressed.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/Home.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 185,
+            "Scale9Height": 194,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 68.16,
+              "Y": 576.0
+            },
+            "Scale": {
+              "ScaleX": 0.34,
+              "ScaleY": 0.34
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.06,
+              "Y": 0.9
+            },
+            "PreSize": {
+              "X": 0.1893,
+              "Y": 0.3375
+            },
+            "LeftMargin": -39.34,
+            "RightMargin": 960.34,
+            "TopMargin": -44.0,
+            "BottomMargin": 468.0,
+            "Tag": 7,
+            "ActionTag": -505484949,
+            "Size": {
+              "X": 215.0,
+              "Y": 216.0
+            },
+            "Name": "HomeButton",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/PauseDisable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/PausePressed.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/Pause.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 186,
+            "Scale9Height": 195,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1067.84,
+              "Y": 576.0
+            },
+            "Scale": {
+              "ScaleX": 0.34,
+              "ScaleY": 0.34
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.94,
+              "Y": 0.9
+            },
+            "PreSize": {
+              "X": 0.1901,
+              "Y": 0.3391
+            },
+            "LeftMargin": 959.84,
+            "RightMargin": -39.84,
+            "TopMargin": -44.5,
+            "BottomMargin": 467.5,
+            "Tag": 8,
+            "ActionTag": -714981176,
+            "Size": {
+              "X": 216.0,
+              "Y": 217.0
+            },
+            "Name": "PauseButton",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "assets/Button/Home.png",
+        "assets/Button/HomeDisable.png",
+        "assets/Button/HomePressed.png",
+        "assets/Button/Pause.png",
+        "assets/Button/PauseDisable.png",
+        "assets/Button/PausePressed.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

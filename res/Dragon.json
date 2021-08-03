@@ -1,0 +1,77 @@
+{
+  "ID": "06c7dcb3-a458-45d3-8835-096a916a2c3d",
+  "Version": "3.10.0.0",
+  "Name": "Dragon",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 3,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "assets/Dragon/Idle (1).png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.3314,
+              "ScaleY": 0.1119
+            },
+            "Position": {
+              "X": 0.0012,
+              "Y": 0.0001
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -225.3215,
+            "RightMargin": -454.6785,
+            "TopMargin": -419.1663,
+            "BottomMargin": -52.8337,
+            "Tag": 5,
+            "ActionTag": -562058953,
+            "Size": {
+              "X": 680.0,
+              "Y": 472.0
+            },
+            "Name": "Dragon",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "assets/Dragon/Idle (1).png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

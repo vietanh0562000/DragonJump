@@ -1,0 +1,47 @@
+{
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"../../frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/base/BaseGUI.js",
+        "src/base/UIFactory.js",
+
+        "src/framework/AnimationMgr.js",
+        "src/framework/Framework.js",
+        "src/framework/GUI.js",
+        "src/framework/libs/aes.js",
+        "src/framework/libs/crypt.js",
+        "src/framework/libs/md5.js",
+        "src/framework/libs/signals.js",
+        "src/framework/libs/underscore.js",
+        "src/framework/Localization.js",
+        "src/framework/Network.js",
+        "src/framework/PoolObject.js",
+        "src/framework/StringUtils.js",
+        "src/framework/UserData.js",
+
+        "src/config/GameConfig.js",
+        "src/config/GameConstants.js",
+        "src/config/DragonConstants.js",
+        "src/config/LandConstants.js",
+
+        "src/GamePlay/GamePlayController.js",
+        "src/GamePlay/GamePlayScene.js",
+        "src/GamePlay/land/Land.js",
+        "src/GamePlay/land/FlatLand.js",
+        "src/GamePlay/land/NormalLand.js",
+        "src/GamePlay/land/ThickLand.js",
+        "src/GamePlay/dragon/Dragon.js",
+
+        "src/lobby/LobbyController.js",
+        "src/lobby/LobbyScene.js",
+
+        "src/Resource.js"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "tickTime": 0.0625,
+    "landNumberType": 3,
+    "landType": {
+        "normalLand": 0,
+        "flatLand": 1,
+        "thickLand": 2
+    },
+    "dragonUpdate": 0.1
+}

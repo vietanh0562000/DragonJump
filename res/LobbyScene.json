@@ -1,0 +1,111 @@
+{
+  "ID": "d1c81817-42c1-492d-adac-849d4702e602",
+  "Version": "3.10.0.0",
+  "Name": "LobbyScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 3,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/PlayDisable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/PlayPressed.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/Play.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 575,
+            "Scale9Height": 214,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 230.464
+            },
+            "Scale": {
+              "ScaleX": 0.6219,
+              "ScaleY": 0.6219
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3601
+            },
+            "PreSize": {
+              "X": 0.5326,
+              "Y": 0.3688
+            },
+            "LeftMargin": 265.5,
+            "RightMargin": 265.5,
+            "TopMargin": 291.536,
+            "BottomMargin": 112.464,
+            "Tag": 5,
+            "ActionTag": 1719521462,
+            "Size": {
+              "X": 605.0,
+              "Y": 236.0
+            },
+            "Name": "PlayButton",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "assets/Button/Play.png",
+        "assets/Button/PlayDisable.png",
+        "assets/Button/PlayPressed.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

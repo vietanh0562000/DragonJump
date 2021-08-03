@@ -1,0 +1,169 @@
+{
+  "ID": "4c7f82e4-150e-4010-bdda-b149fdb56644",
+  "Version": "3.10.0.0",
+  "Name": "FlatLand",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 6,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "assets/Tiles/14.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 42,
+            "Scale9OriginY": 30,
+            "Scale9Width": 44,
+            "Scale9Height": 33,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -64.0,
+            "RightMargin": -64.0,
+            "BottomMargin": -93.0,
+            "Tag": 7,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "assets/Tiles/13.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 30,
+                "Scale9Width": 44,
+                "Scale9Height": 33,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1.4671,
+                  "Y": 46.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0115,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "LeftMargin": -126.5329,
+                "RightMargin": 126.5329,
+                "Tag": 8,
+                "ActionTag": -879286497,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 93.0
+                },
+                "Name": "Left",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "assets/Tiles/15.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 30,
+                "Scale9Width": 44,
+                "Scale9Height": 33,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 128.1551,
+                  "Y": 46.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 1.0012,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "LeftMargin": 128.1551,
+                "RightMargin": -128.1552,
+                "Tag": 9,
+                "ActionTag": -2029361442,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 93.0
+                },
+                "Name": "Right",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 946854361,
+            "Size": {
+              "X": 128.0,
+              "Y": 93.0
+            },
+            "Name": "Center",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "assets/Tiles/13.png",
+        "assets/Tiles/14.png",
+        "assets/Tiles/15.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

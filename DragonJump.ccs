@@ -1,0 +1,101 @@
+<Solution>
+  <PropertyGroup Name="DragonJump" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="assets">
+          <Folder Name="BG">
+            <Image Name="BG.png" />
+          </Folder>
+          <Folder Name="Button">
+            <Image Name="Home.png" />
+            <Image Name="HomeDisable.png" />
+            <Image Name="HomePressed.png" />
+            <Image Name="Pause.png" />
+            <Image Name="PauseDisable.png" />
+            <Image Name="PausePressed.png" />
+            <Image Name="Play.png" />
+            <Image Name="PlayDisable.png" />
+            <Image Name="PlayPressed.png" />
+          </Folder>
+          <Folder Name="Dragon">
+            <Image Name="Dead (1).png" />
+            <Image Name="Dead (2).png" />
+            <Image Name="Dead (3).png" />
+            <Image Name="Dead (4).png" />
+            <Image Name="Dead (5).png" />
+            <Image Name="Dead (6).png" />
+            <Image Name="Dead (7).png" />
+            <Image Name="Dead (8).png" />
+            <Image Name="Idle (1).png" />
+            <Image Name="Idle (10).png" />
+            <Image Name="Idle (2).png" />
+            <Image Name="Idle (3).png" />
+            <Image Name="Idle (4).png" />
+            <Image Name="Idle (5).png" />
+            <Image Name="Idle (6).png" />
+            <Image Name="Idle (7).png" />
+            <Image Name="Idle (8).png" />
+            <Image Name="Idle (9).png" />
+            <Image Name="Jump (1).png" />
+            <Image Name="Jump (10).png" />
+            <Image Name="Jump (11).png" />
+            <Image Name="Jump (12).png" />
+            <Image Name="Jump (2).png" />
+            <Image Name="Jump (3).png" />
+            <Image Name="Jump (4).png" />
+            <Image Name="Jump (5).png" />
+            <Image Name="Jump (6).png" />
+            <Image Name="Jump (7).png" />
+            <Image Name="Jump (8).png" />
+            <Image Name="Jump (9).png" />
+            <Image Name="Run (1).png" />
+            <Image Name="Run (2).png" />
+            <Image Name="Run (3).png" />
+            <Image Name="Run (4).png" />
+            <Image Name="Run (5).png" />
+            <Image Name="Run (6).png" />
+            <Image Name="Run (7).png" />
+            <Image Name="Run (8).png" />
+            <Image Name="Walk (1).png" />
+            <Image Name="Walk (10).png" />
+            <Image Name="Walk (2).png" />
+            <Image Name="Walk (3).png" />
+            <Image Name="Walk (4).png" />
+            <Image Name="Walk (5).png" />
+            <Image Name="Walk (6).png" />
+            <Image Name="Walk (7).png" />
+            <Image Name="Walk (8).png" />
+            <Image Name="Walk (9).png" />
+          </Folder>
+          <Folder Name="Tiles">
+            <Image Name="1.png" />
+            <Image Name="10.png" />
+            <Image Name="11.png" />
+            <Image Name="12.png" />
+            <Image Name="13.png" />
+            <Image Name="14.png" />
+            <Image Name="15.png" />
+            <Image Name="16.png" />
+            <Image Name="17.png" />
+            <Image Name="18.png" />
+            <Image Name="2.png" />
+            <Image Name="3.png" />
+            <Image Name="4.png" />
+            <Image Name="5.png" />
+            <Image Name="6.png" />
+            <Image Name="7.png" />
+            <Image Name="8.png" />
+            <Image Name="9.png" />
+          </Folder>
+        </Folder>
+        <Project Name="FlatLand.csd" Type="Node" />
+        <Project Name="GamePlayScene.csd" Type="Scene" />
+        <Project Name="LobbyScene.csd" Type="Scene" />
+        <Project Name="NormalLand.csd" Type="Node" />
+        <Project Name="ThickLand.csd" Type="Node" />
+        <Project Name="Dragon.csd" Type="Node" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

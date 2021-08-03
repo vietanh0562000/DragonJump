@@ -1,0 +1,120 @@
+{
+  "ID": "53eee699-2988-4965-a2e6-aac5252f3d1b",
+  "Version": "3.10.0.0",
+  "Name": "NormalLand",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 20,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "assets/Tiles/11.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 42,
+            "Scale9OriginY": 42,
+            "Scale9Width": 44,
+            "Scale9Height": 44,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0001,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -127.9999,
+            "RightMargin": -0.0001,
+            "BottomMargin": -128.0,
+            "Tag": 21,
+            "ActionTag": 1791733048,
+            "Size": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Name": "Left",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "assets/Tiles/7.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 42,
+            "Scale9OriginY": 42,
+            "Scale9Width": 44,
+            "Scale9Height": 44,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0001,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 0.0001,
+            "RightMargin": -128.0001,
+            "BottomMargin": -128.0,
+            "Tag": 22,
+            "ActionTag": 1617044678,
+            "Size": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "Name": "Right",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "assets/Tiles/11.png",
+        "assets/Tiles/7.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}
