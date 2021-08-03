@@ -89,12 +89,15 @@
             <Image Name="9.png" />
           </Folder>
         </Folder>
+        <Project Name="Dragon.csd" Type="Node" />
         <Project Name="FlatLand.csd" Type="Node" />
         <Project Name="GamePlayScene.csd" Type="Scene" />
         <Project Name="LobbyScene.csd" Type="Scene" />
         <Project Name="NormalLand.csd" Type="Node" />
+        <TTF Name="SVN-Supercell Magic.ttf" />
         <Project Name="ThickLand.csd" Type="Node" />
-        <Project Name="Dragon.csd" Type="Node" />
+        <Project Name="Water.csd" Type="Layer" />
+        <Project Name="GameOverScene.csd" Type="Scene" />
       </RootFolder>
     </Group>
   </SolutionFolder>

@@ -21,6 +21,18 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
+          <AbstractNodeData Name="GameName" ActionTag="-1178645161" Tag="54" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="226.0000" RightMargin="226.0000" TopMargin="41.8000" BottomMargin="496.2000" FontSize="72" LabelText="Dragon Jump" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="7.0000" ShadowEnabled="True" ctype="TextObjectData">
+            <Size X="684.0000" Y="102.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="568.0000" Y="547.2000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="43" G="232" B="48" />
+            <PrePosition X="0.5000" Y="0.8550" />
+            <PreSize X="0.6021" Y="0.1594" />
+            <FontResource Type="Normal" Path="SVN-Supercell Magic.ttf" Plist="" />
+            <OutlineColor A="255" R="230" G="230" B="250" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
         </Children>
       </ObjectData>
     </Content>

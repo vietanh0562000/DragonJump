@@ -1,9 +1,13 @@
 let GamePlayScene = cc.Scene.extend({
     ctor: function (){
         this._super();
+        gv.originX = 0;
         this.container = ccs.load(res.gamePlayScene).node;
+        this.water = ccs.load(res.water).node;
         this.homeButton = this.container.getChildByName("HomeButton");
         this.pauseButton = this.container.getChildByName("PauseButton");
+        this.pointText = this.container.getChildByName("Point");
+        this.point = 0;
         this.lands = [];
         this.currentLand = -1;
         this.dragon = new Dragon(DEFAUT_POSITION.X,DEFAUT_POSITION.Y);
@@ -15,10 +19,13 @@ let GamePlayScene = cc.Scene.extend({
 
         this.homeButton.addClickEventListener(this.controller.returnHome);
         this.pauseButton.addClickEventListener(this.controller.pauseGame);
+        this.pointText.setString(this.point.toString());
 
         buildUI(this.container);
+        buildUI(this.water);
         this.addChild(this.container);
-        this.addChild(this.dragon.container);
+        this.addChild(this.water, WATER_ZORDER);
+        this.addChild(this.dragon.container, DRAGON_ZORDER);
         this.addTouchEventListener();
 
         this.schedule(this.updateLogic, GameConfig.tickTime);
@@ -46,12 +53,34 @@ let GamePlayScene = cc.Scene.extend({
      * Update UI dragon
      */
     updateDragon: function (dt){
-
         this.dragon.updateUI(dt);
     },
 
+    /**
+     * Update Logic Dragon
+     */
     updateLogic: function (){
-        this.dragon.updateLogic();
+        this.dragon.updateLogic(this.lands);
+        switch (this.dragon.state){
+            case DRAGON_STATE.IDLE:
+                if (this.currentLand !== this.dragon.landStanding){
+                    this.point++;
+                    this.pointText.setString(this.point.toString());
+                    this.currentLand = this.dragon.landStanding;
+                    this.removeCurrentLand();
+                    this.addLand();
+                }
+                break;
+            case DRAGON_STATE.DEAD:
+                gv.score = this.point;
+                if (gv.score > gv.bestScore){
+                    gv.bestScore = gv.score;
+                }
+                setTimeout(function (){
+                    fr.viewScene(GameOverScene);
+                }, 500);
+                break;
+        }
     },
 
     /**
@@ -67,6 +96,11 @@ let GamePlayScene = cc.Scene.extend({
         }, this);
     },
 
+    /**
+     * find new position to lay new land
+     * @param landType
+     * @returns {{x: number, y: number}}
+     */
     findNewLandPosition: function (landType){
         let nextX = Math.floor(Math.random() * 1000);
 
@@ -106,7 +140,18 @@ let GamePlayScene = cc.Scene.extend({
                 break;
         }
         this.lands.push(newLand);
-        this.addChild(newLand, 0);
+        this.addChild(newLand.sprite, LAND_ZORDER);
+    },
+
+    /**
+     * remove land dragon has been on
+     */
+    removeCurrentLand: function (){
+        for (let i = 0; i < this.lands.length; i++){
+            this.lands[i].moveBy(-this.dragon.jumpDistance,0);
+        }
+        this.dragon.moveBy(-this.dragon.jumpDistance, 0);
+        gv.originX += this.dragon.jumpDistance;
     },
 
     /**
@@ -125,10 +170,10 @@ let GamePlayScene = cc.Scene.extend({
      * @param event
      */
     makeDragonJump: function (touches, event){
+        // Jump dragon
         this.isHold = false;
-        this.dragon.jump(this.timer);
+        let distanceJump = this.timer * 500;
+        this.dragon.jump(distanceJump);
         this.timer = 0;
-        this.currentLand++;
-        this.addLand();
     }
 })

@@ -1,4 +1,8 @@
 DEFAUT_POSITION = {
     X: 100,
-    Y: 100
+    Y: 150
 }
+
+WATER_ZORDER = 20;
+LAND_ZORDER = 1;
+DRAGON_ZORDER = 10;

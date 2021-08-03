@@ -31,6 +31,7 @@
         "src/config/DragonConstants.js",
         "src/config/LandConstants.js",
 
+        "src/GamePlay/GlobalVariables.js",
         "src/GamePlay/GamePlayController.js",
         "src/GamePlay/GamePlayScene.js",
         "src/GamePlay/land/Land.js",
@@ -38,6 +39,7 @@
         "src/GamePlay/land/NormalLand.js",
         "src/GamePlay/land/ThickLand.js",
         "src/GamePlay/dragon/Dragon.js",
+        "src/GamePlay/GameOverScene.js",
 
         "src/lobby/LobbyController.js",
         "src/lobby/LobbyScene.js",

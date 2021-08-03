@@ -15,6 +15,55 @@
         "Tag": 6,
         "Children": [
           {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "assets/BG/BG.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 330,
+            "Scale9OriginY": 247,
+            "Scale9Width": 340,
+            "Scale9Height": 256,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.9965,
+              "Y": 1.0
+            },
+            "LeftMargin": 1.988,
+            "RightMargin": 1.988,
+            "Tag": 32,
+            "ActionTag": 2115764347,
+            "Size": {
+              "X": 1132.024,
+              "Y": 640.0
+            },
+            "Name": "BG",
+            "ctype": "ImageViewObjectData"
+          },
+          {
             "FontSize": 14,
             "ButtonText": "",
             "TextColor": {
@@ -167,6 +216,64 @@
             },
             "Name": "PauseButton",
             "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 48,
+            "LabelText": "999",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 553.6193,
+              "Y": 522.7202
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4873,
+              "Y": 0.8168
+            },
+            "PreSize": {
+              "X": 0.1083,
+              "Y": 0.1047
+            },
+            "LeftMargin": 492.1193,
+            "RightMargin": 520.8807,
+            "TopMargin": 83.7798,
+            "BottomMargin": 489.2202,
+            "Tag": 53,
+            "ActionTag": -263380874,
+            "Size": {
+              "X": 123.0,
+              "Y": 67.0
+            },
+            "Name": "Point",
+            "ctype": "TextObjectData"
           }
         ],
         "Size": {
@@ -177,12 +284,14 @@
         "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
+        "assets/BG/BG.png",
         "assets/Button/Home.png",
         "assets/Button/HomeDisable.png",
         "assets/Button/HomePressed.png",
         "assets/Button/Pause.png",
         "assets/Button/PauseDisable.png",
-        "assets/Button/PausePressed.png"
+        "assets/Button/PausePressed.png",
+        "SVN-Supercell Magic.ttf"
       ],
       "ctype": "GameFileData"
     }

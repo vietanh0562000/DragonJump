@@ -4,16 +4,18 @@ let Dragon = cc.Class.extend({
         this.container = ccs.load(res.dragon).node;
         this.sprite = this.container.getChildByName("Dragon");
         this.sprite.x = x;
-        this.sprite.y = y;
+        this.sprite.y = -50;
+        this.x = x;
+        this.y = y;
+        this.landStanding = 0;
         buildUI(this.sprite);
         this.curAnimation = 1;
-        this.jumpTime = 0;
-        this.dropTime = 0;
-        this.jumpSpeed = 0;
+        this.jumpDistance = 0;
         this.timeToUpdateUI = GameConfig.dragonUpdate;
         this.animations = [];
         this.createAnimations();
         this.runAnimation(this.state, true);
+        this.sprite.runAction(new cc.moveBy(1.5, 0, y + 50));
     },
 
     /**
@@ -75,11 +77,21 @@ let Dragon = cc.Class.extend({
     /**
      * Update Logic Dragon
      */
-    updateLogic: function (){
+    updateLogic: function (lands){
         switch (this.state){
             case DRAGON_STATE.IDLE:
+                let landStanding = this.findLandStanding(lands);
+                // Find next land and status of dragon
+                if (landStanding === -1){
+                    this.die();
+                }
+                if (landStanding !== this.landStanding){
+                    this.landStanding = landStanding;
+                }
                 break;
             case DRAGON_STATE.JUMP:
+                this.x += this.jumpDistance * GameConfig.tickTime;
+                cc.log("Dragon x: " + this.x);
                 break;
             default:
                 break;
@@ -106,16 +118,48 @@ let Dragon = cc.Class.extend({
     /**
      * Function calculate to Jump dragon
      */
-    jump: function (timeHold){
+    jump: function (distance){
         this.state = DRAGON_STATE.JUMP;
+        this.jumpDistance = distance;
         this.runAnimation(this.state, false);
-        let distanceOneJump = timeHold * 300;
-        let newX = this.sprite.x + distanceOneJump;
+
+        let newX = this.sprite.x + distance;
         let backIdleState = new cc.CallFunc(this.turnToIdle.bind(this));
         let jumpAction = cc.Sequence(
-            cc.jumpTo(1, cc.p(newX, this.sprite.y), distanceOneJump, 1),
+            cc.jumpTo(1, cc.p(newX, this.sprite.y), distance, 1),
             backIdleState
         )
         this.sprite.runAction(jumpAction);
+    },
+
+    /**
+     * move sprite
+     * @param distanceX
+     * @param distanceY
+     */
+    moveBy: function (distanceX, distanceY){
+        let action = cc.moveBy(1, distanceX, distanceY);
+        this.sprite.runAction(action);
+    },
+
+    /**
+     * find the land dragon is standing
+     * @param lands
+     */
+    findLandStanding: function (lands){
+        for (let i = 0; i < lands.length; i++){
+            let start = lands[i].x - (lands[i].width / 2);
+            let end = lands[i].x + (lands[i].width / 2);
+            if (this.x >= start && this.x <= end) return i;
+        }
+        return -1;
+    },
+
+    /**
+     * Kill the dragon
+     */
+    die: function (){
+        this.state = DRAGON_STATE.DEAD;
+        this.runAnimation(this.state, false);
     }
 })

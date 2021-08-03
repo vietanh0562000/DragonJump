@@ -28,18 +28,5 @@
         <LastRunType Value="Windows" />
       </Value>
     </Item>
-    <Item Key="TabsParamsKey">
-      <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="LobbyScene.csd" />
-          <FilePathData Path="GamePlayScene.csd" />
-          <FilePathData Path="FlatLand.csd" />
-          <FilePathData Path="ThickLand.csd" />
-          <FilePathData Path="NormalLand.csd" />
-          <FilePathData Path="Dragon.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="FlatLand.csd" />
-      </Value>
-    </Item>
   </Properties>
 </UserData>

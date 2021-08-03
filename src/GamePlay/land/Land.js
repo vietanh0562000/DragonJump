@@ -1,15 +1,16 @@
 /**
- * Land UI object
+ * Land object
  */
-let Land = cc.Node.extend({
+let Land = cc.Class.extend({
     ctor: function (sprite, x, y, type){
-        this._super();
         this.sprite = sprite;
+        this.sprite.x = x - gv.originX;
+        this.sprite.y = -50;
         this.x = x;
         this.y = y;
         this.width = LAND_ASSETS[type].width;
         this.height = LAND_ASSETS[type].height;
-        this.addChild(this.sprite);
+        this.sprite.runAction(new cc.moveBy(1.5, 0, y + 50));
     },
 
     setX: function (newX){
@@ -22,5 +23,15 @@ let Land = cc.Node.extend({
 
     update: function (dt){
 
+    },
+
+    /**
+     * Land move by x, y
+     * @param distanceX
+     * @param distanceY
+     */
+    moveBy: function (distanceX, distanceY){
+        let action = cc.moveBy(1, distanceX, distanceY);
+        this.sprite.runAction(action);
     }
 })

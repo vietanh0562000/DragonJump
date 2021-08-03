@@ -90,6 +90,70 @@
             },
             "Name": "PlayButton",
             "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 72,
+            "LabelText": "Dragon Jump",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "OutlineSize": 2,
+            "OutlineColor": {
+              "R": 230,
+              "G": 230,
+              "B": 250
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": 7.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 547.2
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 43,
+              "G": 232,
+              "B": 48
+            },
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.855
+            },
+            "PreSize": {
+              "X": 0.6021,
+              "Y": 0.1594
+            },
+            "LeftMargin": 226.0,
+            "RightMargin": 226.0,
+            "TopMargin": 41.8,
+            "BottomMargin": 496.2,
+            "Tag": 54,
+            "ActionTag": -1178645161,
+            "Size": {
+              "X": 684.0,
+              "Y": 102.0
+            },
+            "Name": "GameName",
+            "ctype": "TextObjectData"
           }
         ],
         "Size": {
@@ -102,7 +166,8 @@
       "UsedResources": [
         "assets/Button/Play.png",
         "assets/Button/PlayDisable.png",
-        "assets/Button/PlayPressed.png"
+        "assets/Button/PlayPressed.png",
+        "SVN-Supercell Magic.ttf"
       ],
       "ctype": "GameFileData"
     }

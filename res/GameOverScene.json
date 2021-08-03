@@ -1,0 +1,310 @@
+{
+  "ID": "711ab615-4a15-4208-88c9-ad2db30d9407",
+  "Version": "3.10.0.0",
+  "Name": "GameOverScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 55,
+        "Children": [
+          {
+            "FontSize": 60,
+            "LabelText": "Score : 9999",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 521.4323
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.8147
+            },
+            "PreSize": {
+              "X": 0.4683,
+              "Y": 0.1281
+            },
+            "LeftMargin": 302.0,
+            "RightMargin": 302.0,
+            "TopMargin": 77.5659,
+            "BottomMargin": 480.4341,
+            "Tag": 56,
+            "ActionTag": 811195049,
+            "Size": {
+              "X": 532.0,
+              "Y": 82.0
+            },
+            "Name": "Score",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "Best : 9999",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 364.3595
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 244,
+              "G": 124,
+              "B": 8
+            },
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5693
+            },
+            "PreSize": {
+              "X": 0.257,
+              "Y": 0.0766
+            },
+            "LeftMargin": 422.0,
+            "RightMargin": 422.0,
+            "TopMargin": 251.1405,
+            "BottomMargin": 339.8595,
+            "Tag": 57,
+            "ActionTag": -405509072,
+            "Size": {
+              "X": 292.0,
+              "Y": 49.0
+            },
+            "Name": "Best",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/PlayDisable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/PlayPressed.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/Play.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 575,
+            "Scale9Height": 214,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0006,
+              "Y": 230.4641
+            },
+            "Scale": {
+              "ScaleX": 0.3623,
+              "ScaleY": 0.3623
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3601
+            },
+            "PreSize": {
+              "X": 0.5326,
+              "Y": 0.3688
+            },
+            "LeftMargin": 265.5006,
+            "RightMargin": 265.4994,
+            "TopMargin": 291.5359,
+            "BottomMargin": 112.4641,
+            "Tag": 58,
+            "ActionTag": 6920450,
+            "Size": {
+              "X": 605.0,
+              "Y": 236.0
+            },
+            "Name": "PlayButton",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/HomeDisable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/HomePressed.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "assets/Button/Home.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 185,
+            "Scale9Height": 194,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 68.16,
+              "Y": 576.0
+            },
+            "Scale": {
+              "ScaleX": 0.34,
+              "ScaleY": 0.34
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.06,
+              "Y": 0.9
+            },
+            "PreSize": {
+              "X": 0.1893,
+              "Y": 0.3375
+            },
+            "LeftMargin": -39.34,
+            "RightMargin": 960.34,
+            "TopMargin": -44.0,
+            "BottomMargin": 468.0,
+            "Tag": 59,
+            "ActionTag": 1911218476,
+            "Size": {
+              "X": 215.0,
+              "Y": 216.0
+            },
+            "Name": "HomeButton",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "assets/Button/Home.png",
+        "assets/Button/HomeDisable.png",
+        "assets/Button/HomePressed.png",
+        "assets/Button/Play.png",
+        "assets/Button/PlayDisable.png",
+        "assets/Button/PlayPressed.png",
+        "SVN-Supercell Magic.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}
